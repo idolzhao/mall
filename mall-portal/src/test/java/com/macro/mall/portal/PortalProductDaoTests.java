@@ -27,7 +27,7 @@ public class PortalProductDaoTests {
         ids.add(26L);
         ids.add(27L);
         ids.add(28L);
-        ids.add(29L);
+        ids.add(29L);//let
         List<PromotionProduct> promotionProductList = portalProductDao.getPromotionProductList(ids);
         Assert.assertEquals(4,promotionProductList.size());
     }
