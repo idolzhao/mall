@@ -20,6 +20,7 @@ public class RabbitMqConfig {
         return (DirectExchange) ExchangeBuilder
                 .directExchange(QueueEnum.QUEUE_ORDER_CANCEL.getExchange())
                 .durable(true)
+                //let it go
                 .build();
     }
 
