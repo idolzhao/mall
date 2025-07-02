@@ -11,6 +11,7 @@ public class MallPortalApplicationTests {
 
     @Test
     public void contextLoads() {
+        //let it go
     }
 
 }
